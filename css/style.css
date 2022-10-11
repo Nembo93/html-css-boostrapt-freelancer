@@ -17,3 +17,12 @@ header{
 .ms-primary-color{
     background-color: rgb(26, 188, 156);
 }
+
+/* FOOTER */
+footer{
+    background-color: rgb(58, 84, 109);
+    color: white;
+}
+.ms-tertiary-color{
+    background-color: rgb(44, 62, 80);
+}

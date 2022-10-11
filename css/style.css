@@ -1,5 +1,9 @@
 
-
+/* DEBUG */
+.debug-color-green{
+    background-color: green;
+    border: 5px solid red;
+}
 
 
 
@@ -10,6 +14,6 @@ header{
 }
 
 /* HERO */
-.hero{
+.ms-primary-color{
     background-color: rgb(26, 188, 156);
 }

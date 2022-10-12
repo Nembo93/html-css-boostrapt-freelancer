@@ -8,7 +8,7 @@
     align-items: center;
 }
 .star-row-gray{
-    color: gray;
+    color: black;
     font-size: 1.25rem;
 }
 .star-row-white{
@@ -37,7 +37,7 @@
 .ms-line-star{
     width: 100px;
     height: 3px;
-    background-color: gray;
+    background-color: black;
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
@@ -60,4 +60,32 @@
 }
 textarea{
     border: none;
+}
+.ms-submit-button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+/* Button */
+.ms-download-button{
+    width: 120px;
+    font-size: .875rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: .9375rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.ms-fo-icon{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.ms-fo-icon:first-of-type{
+    padding-left: 15;
+    padding-right: 15;
 }

@@ -50,3 +50,6 @@ footer{
 .ms-tertiary-color{
     background-color: rgb(44, 62, 80);
 }
+footer a{
+    text-decoration: none;
+}

@@ -1,10 +1,15 @@
-
+@import url(component.css);
 /* DEBUG */
-.debug-color-green{
+/* .debug-color-green{
     background-color: green;
     border: 5px solid red;
+} */
+.debug-color-yellow{
+    background-color: yellow;
 }
-
+.debug-color-pink{
+    background-color: pink;
+}
 
 
 /* HEADER */
@@ -12,10 +17,29 @@ header{
     background-color: rgb(43, 61, 78);
     color: white;
 }
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
 
 /* HERO */
 .ms-primary-color{
     background-color: rgb(26, 188, 156);
+}
+
+/* PORTFOLIO */
+.ms-portfolio-wide{
+    max-width: 70%;
+}
+.portfolio img{
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+/* ABOUT & CONTACT ME */
+.ms-section-wide{
+    max-width: 60%;
 }
 
 /* FOOTER */

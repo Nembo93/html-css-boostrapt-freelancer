@@ -1,0 +1,63 @@
+
+.ms-line{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.star-row-gray{
+    color: gray;
+    font-size: 1.25rem;
+}
+.star-row-white{
+    color: white;
+    font-size: 1.25rem;
+}
+.ms-color-white{
+    color: white;
+}
+.ms-bg-white{
+    background-color: white;
+}
+
+
+/* star */
+.ms-box{
+    width: 500px;
+    height:300px;
+    background-color: azure;
+}
+.ms-box-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ms-line-star{
+    width: 100px;
+    height: 3px;
+    background-color: gray;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ms-line-star-2{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Input */
+.ms-input{
+    border: none;
+}
+.ms-label-textarea{
+    vertical-align: top;
+}
+textarea{
+    border: none;
+}

@@ -22,6 +22,11 @@ header a{
     color: white;
     margin-left: 10px;
 }
+.ms-menu-mobile{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 /* HERO */
 .ms-primary-color{
